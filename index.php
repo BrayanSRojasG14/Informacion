@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <?php include_once("nav-i-a.php"); ?>
     <div class="titulomenuprincipal-i-a">Informacion</div>
     <div class="buscarmenuprincipal-i-a">
         <input type="search">
@@ -17,13 +18,30 @@
         fuente de datos para los usuarios tambien desarrollar una global.
     </div>
     <div>
-        Temas
+        <h1>Temas</h1>
+        <img src="./img/cocina-fusion.jpg" alt="cocina fusion">
+        <img src="./img/cocina-fusion.jpg" alt="cocina fusion">
+        <img src="./img/cocina-fusion.jpg" alt="cocina fusion">
     </div>
     <div>
         Cursos
+        <div class="cuadros">
+            <div class="arte">
+            Artes
+            </div>
+            <div class="musica">
+            musica
+            </div>
+            <div class="idiomas">
+            escuela
+            </div>
+            <div class="extras">
+            Extras
+            </div>
+        </div>
     </div>
-    <div>
-        Comentarios
-    </div>
+    <?php
+    include_once("header-i-a.php");
+    ?>
 </body>
 </html>

@@ -7,3 +7,11 @@
     font-size: large;
     margin: 100px;
 }
+nav{
+    color: blue;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.arte{
+    color: black;
+}
